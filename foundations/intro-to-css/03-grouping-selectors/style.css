@@ -1,1 +1,12 @@
-/* Add CSS Styling */
+.primary{
+color: white;
+background-color: black;
+border-color: grey;
+padding: 6px;
+}
+
+.secondary{
+    color: black;
+    background-color:yellow;
+    padding: 6px;
+}
