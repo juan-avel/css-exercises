@@ -1,4 +1,6 @@
-div {
+h1 {
     background-color: red;
     color: white;
+    flex-direction: column ;
+    text-align: center;
 }
