@@ -8,7 +8,12 @@ body {
   font-family: Besley, serif;
 }
 
-.header {
+.nav {
+  align-items: center;
+  gap: 30px;
+  justify-content: space-around;
+  padding-inline: 10px;
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -43,6 +48,21 @@ a {
   color: rebeccapurple;
 }
 
-ul {
+.links {
+  gap: 10px;
+  justify-content: space-around;
   list-style-type: none;
+  display: flex;
+}
+
+.right-cont{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.left-cont{
+  display: flex;
+  align-items: center;
+  flex-grow: 4;
 }
